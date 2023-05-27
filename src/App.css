@@ -4,155 +4,113 @@
   --black: #1E1E1E;
   --red: #FF5B5B;
   --blue: #0079FF;
+  --light-grey: #F7F7F7;
 }
 
 body {
   color: var(--black);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
+  background-color: var(--light-grey);
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  transition: background-color .3s ease;
 }
 
 a {
   text-decoration: none;
-  color: #1E1E1E;
+  color: var(--black);
+  transition: color .3s ease;
 }
 
-.nav-link:first-of-type {
-  margin-left: 20px;
-}
-
-a .nav-link:last-of-type {
-  position: absolute;
-  left: 0;
-}
-
-.red-text {
-  color: var(--red);
-}
-
-.blue-text {
+a:hover {
   color: var(--blue);
 }
 
 .nav-link {
-  margin-top: 10px;
   color: var(--black);
-  border-radius: 100px;
-  padding: 5px 20px 5px 20px;
   font-weight: 600;
+  transition: background-color .3s ease, color .3s ease;
 }
 
 .nav-link:hover {
-  color: white;
-  background-color: #0079ff;
+  color: var(--light-grey);
+  background-color: var(--blue);
 }
 
 .active {
-  color: #0079ff;
-  background-color: white;
-  border: solid 2px #0079ff;
-}
-
-.header-img-1 {
-  max-height: 50vh;
-  position: absolute;
-  left: 0;
-  top: 2vh;
-  z-index: -1;
-}
-
-.header-img-2 {
-  max-height: 75vh;
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  color: var(--blue);
+  background-color: var(--light-grey);
+  border: solid 2px var(--blue);
 }
 
 .landing {
-  min-height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
 }
 
 .landing h1 {
   font-weight: 700;
-  font-size: 44px;
-  margin-left: 15%;
+  font-size: 2.5em;
+  color: var(--blue);
 }
 
 .about {
-  position: absolute;
-  background-color: #0079FF;
-  color: white;
-  min-width: 100%;
-  min-height: 400px;
-  left: 0;
-  text-align: left;
+  background-color: var(--blue);
+  color: var(--light-grey);
+  padding: 2em 0;
+  text-align: center;
 }
 
 .about-text {
-  width: 50%;
-  margin: auto;
-  margin-top: 50px;
-  font-size: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.125em;
+  line-height: 1.8;
 }
 
 #name {
   font-size: 2em;
+  font-weight: bold;
 }
 
 .about-me {
-  margin-top: 35vh;
-  width: 50vw;
   font-size: 1.5em;
 }
 
 b {
-  color: #00254F;
+  color: var(--black);
 }
 
 .skills {
-  padding-top: 33%;
+  padding: 2em 0;
   text-align: center;
 }
 
-.skills .card {
-  border-radius: 25px;
-  border-color: #0077ff27;
+.skills h3 {
+  font-size: 1.5em;
+  color: var(--blue);
+  font-weight: 700;
 }
 
 .skills ul li {
   list-style: none;
-  font-size: 16px;
-  line-height: 2em;
-}
-
-.skills h3 {
-  font-size: 20px;
-  line-height: 3em;
-  color: #306BAC;
-  font-weight: 700;
-}
-
-.skills .education {
-  margin-top: 20px;
-  line-height: 25px;
-}
-
-.project-card:first-of-type {
-  width: 915px;
+  font-size: 1em;
 }
 
 .project-card {
-  height: 250px;
-  width: 450px;
-  margin: auto;
+  margin: 2em auto;
+  transition: transform .3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
 }
 
 .card-text {
-  font-size: 0.6em;
+  font-size: 0.8em;
   text-align: center;
-  margin: auto;
 }
 
 /* Scrollbar design */

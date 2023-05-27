@@ -46,13 +46,10 @@ function Skills() {
                             <p>Feb. 2023 - May 2023</p>
                         </li>
                         <li>
-                            <a href="https://www.theodinproject.com/paths/full-stack-javascript?" target="_BLANK"><h3 className="education">The Odin Project (JavaScript Path)</h3>
+                            <a href="https://www.credly.com/badges/9a9735e2-45bf-45ce-acc6-8533f3a94c2a" target="_BLANK"><h3 className="education">AWS Cloud Practioner certificate</h3>
                                 <p>Oct. 2022 - May 2023</p></a>
                         </li>
-                        <li>
-                            <a href="https://www.udemy.com/certificate/UC-554d7246-939d-4211-ad65-2a5e242d20a0/" target="_BLANK"><h3 className="education">The Web Developer Bootcamp - Udemy</h3>
-                                <p>Oct. 2022 - May 2023</p></a>
-                        </li>
+          
                     </ul>
                 </Card.Body>
             </Card>
