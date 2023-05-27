@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, CardGroup } from "react-bootstrap";
-import portfolioProjects from "../../projects";
+import portfolioProjects from "../Project/projects";
 import Project from "../Project";
 
 function Portfolio() {
