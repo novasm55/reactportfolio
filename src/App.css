@@ -1,38 +1,165 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+:root {
+  --black: #1E1E1E;
+  --red: #FF5B5B;
+  --blue: #0079FF;
+}
+
+body {
+  color: var(--black);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #1E1E1E;
+}
+
+.nav-link:first-of-type {
+  margin-left: 20px;
+}
+
+a .nav-link:last-of-type {
+  position: absolute;
+  left: 0;
+}
+
+.red-text {
+  color: var(--red);
+}
+
+.blue-text {
+  color: var(--blue);
+}
+
+.nav-link {
+  margin-top: 10px;
+  color: var(--black);
+  border-radius: 100px;
+  padding: 5px 20px 5px 20px;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: #0079ff;
+}
+
+.active {
+  color: #0079ff;
+  background-color: white;
+  border: solid 2px #0079ff;
+}
+
+.header-img-1 {
+  max-height: 50vh;
+  position: absolute;
+  left: 0;
+  top: 2vh;
+  z-index: -1;
+}
+
+.header-img-2 {
+  max-height: 75vh;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.landing {
+  min-height: 55vh;
+}
+
+.landing h1 {
+  font-weight: 700;
+  font-size: 44px;
+  margin-left: 15%;
+}
+
+.about {
+  position: absolute;
+  background-color: #0079FF;
+  color: white;
+  min-width: 100%;
+  min-height: 400px;
+  left: 0;
+  text-align: left;
+}
+
+.about-text {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+#name {
+  font-size: 2em;
+}
+
+.about-me {
+  margin-top: 35vh;
+  width: 50vw;
+  font-size: 1.5em;
+}
+
+b {
+  color: #00254F;
+}
+
+.skills {
+  padding-top: 33%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.skills .card {
+  border-radius: 25px;
+  border-color: #0077ff27;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.skills ul li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 2em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.skills h3 {
+  font-size: 20px;
+  line-height: 3em;
+  color: #306BAC;
+  font-weight: 700;
 }
 
-.App-link {
-  color: #61dafb;
+.skills .education {
+  margin-top: 20px;
+  line-height: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.project-card:first-of-type {
+  width: 915px;
+}
+
+.project-card {
+  height: 250px;
+  width: 450px;
+  margin: auto;
+}
+
+.card-text {
+  font-size: 0.6em;
+  text-align: center;
+  margin: auto;
+}
+
+/* Scrollbar design */
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #444444; 
 }
