@@ -50,6 +50,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "react-scripts": "^5.0.1",
     "webpack": "^5.84.1"
   }
