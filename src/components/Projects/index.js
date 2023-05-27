@@ -14,7 +14,7 @@ function Projects() {
                 </Card>
 
                 <Card className="project-card m-2">
-                    <a href="https://github.com/b-reddington/Chatter-Box"><Card.Title>Password Generator</Card.Title>
+                    <a href="https://github.com/novasm55/Password-Generator"><Card.Title>Password Generator</Card.Title>
                         <Card.Text>
                             Protect your digital assets with cybersecurity.
                         </Card.Text></a>
