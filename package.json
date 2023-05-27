@@ -1,8 +1,8 @@
 {
   "name": "reactportfolio",
-  "version": "0.1.0",
+  "version": "0.7.0",
   "private": true,
-  "homepage": "https://novasm55.github.io/reactportfolio",
+  "homepage": "https://novasm55.github.io/reactportfolio/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
@@ -18,8 +18,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
